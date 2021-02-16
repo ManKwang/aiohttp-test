@@ -34,6 +34,32 @@ POST - `/auto/update?id=602c0a28f15e4342e220e8e8&color=White` - Обновлен
 
 DELETE - `/auto/delete?id=602c0a28f15e4342e220e8e8` - Обновление существующей записи
 
+# Пример ответа от сервера
+
+```json
+{
+    "status": "success",
+    "data": [
+        {
+            "_id": "602c1e9a72432451c5f24739",
+            "vendor": "Tesla",
+            "model_name": "Model X",
+            "year_issue": "2020",
+            "color": "Black",
+            "vin_code": "AD4A859E0D90"
+        },
+        {
+            "_id": "602c1eb069a0051efb909377",
+            "vendor": "Tesla",
+            "model_name": "Model X",
+            "year_issue": "2020",
+            "color": "Black",
+            "vin_code": "4850D00B40B1"
+        }
+    ]
+}
+```
+
 --------------
 
 Старался сделать быстро так как есть еще много заданий, поэтому код немного неструктурирован. Надеюсь это не будет большой проблемой.
